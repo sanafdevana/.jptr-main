@@ -31,4 +31,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip install pip pipenv --upgrade
 RUN pipenv install --skip-lock --system --dev
 
-CMD ["./scripts/jupyter.sh"]
+CMD ["./scripts/.irondome.sh"]
