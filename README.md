@@ -148,7 +148,8 @@ heroku container:login
 
 ```bash
 heroku container:push web
-heroku container:release web 
+heroku container:release web
+heroku ps:type hobby
 ```
 
 - `web` is the default for our `Dockerfile`. 
@@ -214,6 +215,7 @@ docker run --env PORT=8888 -it -p 8888:8888 cfe-jupyter
 ```bash
 heroku container:push web
 heroku container:release web
+heroku ps:type hobby
 ```
 
 
