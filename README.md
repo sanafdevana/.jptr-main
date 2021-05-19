@@ -1,19 +1,4 @@
-> [Original Post](https://www.codingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku)
-
-[![Jupyter x Docker on Heroku Post](https://static.codingforentrepreneurs.com/media/cfe-blog/jupyter-production-server-on-docker-heroku/Jupyter_x_Docker_to_Heroku.jpg)](https://www.codingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku)
-
-Jupyter is a tool for running interactive notebooks; basically add Python with Markdown and you've got Jupyter. if you haven't used it before, I recommend you do. 
-
-In this post, I'm going to show you how to deploy a Jupyter Notebook server on Heroku using Docker. 
-
-## The big caveat
-Jupyter has the ability to create new notebooks and they will 100% save on your deployed docker-based Jupyter server... but they will **disappear** as soon as you deploy a new version. That's because containers, by their very nature, are ephemeral by default. 
-
-This caveat doesn't mean we shouldn't do this... it just means it is a HUGE consideration when using this guide over something like http://colab.research.google.com.
-
-Near the bottom, I'll show you how to package all your Jupyter contents, download it, and unpackage it again when you deploy.
-
-
+#GOD BLESS
 ### Final Project Structure
 
 ```
